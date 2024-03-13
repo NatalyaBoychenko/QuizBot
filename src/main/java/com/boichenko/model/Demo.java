@@ -8,7 +8,6 @@ import org.telegram.telegrambots.updatesreceivers.DefaultBotSession;
 public class Demo {
     public static void main(String[] args) throws TelegramApiException {
 
-        ToNewBranch newBr = new ToNewBranch();
         TelegramBotsApi telegramBotsApi = new TelegramBotsApi(DefaultBotSession.class);
         telegramBotsApi.registerBot(new QuizBot());
 
